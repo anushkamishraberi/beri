@@ -6,6 +6,6 @@ count = 0
 for sentence in sentences:
     sentence = sentence.strip()  # remove spaces
     if sentence.startswith('B') or sentence.startswith('b'):
-        count += 1
+        count +=  1
 
 print("Sentences starting with B:", count)
